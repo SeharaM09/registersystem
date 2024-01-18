@@ -1,0 +1,92 @@
+/* Tailwind CSS classes */
+
+@font-face {
+  font-family: 'Akshar';
+  src: url('path-to-akshar-font.woff2') format('woff2'),
+       url('path-to-akshar-font.woff') format('woff');
+  /* Add additional font formats and paths if available */
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.bg-red-300 {
+  background-color: #f0f0f0;
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -2px rgb(0 0 0 / 0.2), 0 2px 4px -2px rgb(0 0 0 / 0.2);
+  --tw-shadow-colored: 1 4px 6px -2px var(--tw-shadow-color), 1 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;/* 8px */
+}
+
+/* Styles for the Google button container */
+.google-button-container {
+  width: 100%;
+}
+
+/* Styles for the Google button */
+.google-button {
+  position: relative;
+  padding-left: 30px; /* Adjust the padding as needed to create space for the SVG */
+  width: 364.29px;
+  height: 50.86px;
+  border-radius: 5px;
+  background-color: #9F9F9F;
+  color: #fff;
+  font-family: Akshar;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Styles for the Google SVG icon */
+.google-button svg {
+  position: absolute;
+  left: 10px; /* Adjust the left position as needed to align the SVG icon */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 24px; /* Adjust the height of the SVG icon */
+  width: 24px; /* Adjust the width of the SVG icon */
+  fill: #fff; /* Change the fill color of the SVG icon */
+  stroke: none; /* Remove the stroke if not needed */
+}
+
+.top-1\/2 {
+  top: 41% !important;
+}
+
+.right-3 {
+  right: 3.5rem !important;
+}
+
+/* Make the button relatively positioned */
+.facebook-button {
+  position: relative;
+  display: flex; /* Use flex to align items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+/* Position the SVG icon on the left */
+.facebook-button svg {
+  margin-right: 57px; /* Adjust the margin as needed to create spacing */
+}
+
+/* Adjust the button text */
+.facebook-button span {
+  flex: 15; /* Allow text to take remaining space */
+}
+

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  
+    
+    font-family: 'Akshar', sans-serif;
+  
+   
+    color: black;
+    background-color: white;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .Navbar{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    backdrop-filter: blur(5px);
+  }
+  
+  h6:hover{
+    color: rgb(235, 82, 22);
+  }
